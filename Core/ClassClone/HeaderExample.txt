@@ -1,0 +1,21 @@
+#pragma once
+
+#include "CLASS_NAMEPrivate/CLASS_NAMEPrivate.h"
+
+namespace NCore
+{
+	class CCLASS_NAME
+	{
+	public:
+		CCLASS_NAME();
+		
+		CCLASS_NAME(const CCLASS_NAME& i_oOther);
+
+		CCLASS_NAME(CCLASS_NAMEPrivate* i_pPrivate);
+
+		~CCLASS_NAME() = default;
+
+	private:
+		QSharedDataPointer<CCLASS_NAMEPrivate> m_pPrivate;
+	};
+}

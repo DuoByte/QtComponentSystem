@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\3rdParty\googletest-master\googletest\src\gtest-all.cc" />
+    <ClCompile Include="..\3rdParty\googletest-master\googletest\src\gtest_main.cc" />
+    <ClCompile Include="src\AppConfig\AppConfig.cpp" />
+    <ClCompile Include="src\AppConfig\AppConfigPrivate\AppConfigPrivate.cpp" />
+    <ClCompile Include="src\BaseFactory\BaseFactory.cpp" />
+    <ClCompile Include="src\ComponentConfig\ComponentConfig.cpp" />
+    <ClCompile Include="src\ComponentConfig\ComponentConfigPrivate\ComponentConfigPrivate.cpp" />
+    <ClCompile Include="src\ComponentInfo\ComponentInfo.cpp" />
+    <ClCompile Include="src\ComponentInfo\ComponentInfoPrivate\ComponentInfoPrivate.cpp" />
+    <ClCompile Include="src\ComponentList\ComponentList.cpp" />
+    <ClCompile Include="src\ComponentList\ComponentListPrivate\ComponentListPrivate.cpp" />
+    <ClCompile Include="src\ComponentLoader\ComponentLoader.cpp" />
+    <ClCompile Include="src\ComponentLoader\ComponentLoaderPrivate\ComponentLoaderPrivate.cpp" />
+    <ClCompile Include="src\ComponentLogic\ComponentLogic.cpp" />
+    <ClCompile Include="src\Component\Component.cpp" />
+    <ClCompile Include="src\Component\ComponentPrivate\ComponentPrivate.cpp" />
+    <ClCompile Include="src\ConfigBoolWidget\ConfigBoolWidget.cpp" />
+    <ClCompile Include="src\ConfigDoubleWidget\ConfigDoubleWidget.cpp" />
+    <ClCompile Include="src\ConfigIniFileExporter\ConfigIniFileExporter.cpp" />
+    <ClCompile Include="src\ConfigIniFileExporter\ConfigIniFileExporterPrivate\ConfigIniFileExporterPrivate.cpp" />
+    <ClCompile Include="src\ConfigIniFileImporter\ConfigIniFileImporter.cpp" />
+    <ClCompile Include="src\ConfigIniFileImporter\ConfigIniFileImporterPrivate\ConfigIniFileImporterPrivate.cpp" />
+    <ClCompile Include="src\ConfigIniFileIO\ConfigIniFileIO.cpp" />
+    <ClCompile Include="src\ConfigIniFileIO\ConfigIniFileIOPrivate\ConfigIniFileIOPrivate.cpp" />
+    <ClCompile Include="src\ConfigIntWidget\ConfigIntWidget.cpp" />
+    <ClCompile Include="src\ConfigItem\ConfigItem.cpp" />
+    <ClCompile Include="src\ConfigItem\ConfigItemPrivate\ConfigItemPrivate.cpp" />
+    <ClCompile Include="src\ConfigParameter\ConfigParameterPrivate\ConfigParameterPrivate.cpp" />
+    <ClCompile Include="src\ConfigParameter\ConfigParameter.cpp" />
+    <ClCompile Include="src\ConfigStringWidget\ConfigStringWidget.cpp" />
+    <ClCompile Include="src\ConfigWidgetFactory\ConfigWidgetFactory.cpp" />
+    <ClCompile Include="src\ConfigWidget\ConfigWidget.cpp" />
+    <ClCompile Include="src\Exception\Exception.cpp" />
+    <ClCompile Include="src\FactoryList\FactoryList.cpp" />
+    <ClCompile Include="src\FactoryList\FactoryListPrivate\FactoryListPrivate.cpp" />
+    <ClCompile Include="src\HardwareConfig\HardwareConfig.cpp" />
+    <ClCompile Include="src\HardwareConfig\HardwareConfigPrivate\HardwareConfigPrivate.cpp" />
+    <ClCompile Include="src\HardwareFile\HardwareFile.cpp" />
+    <ClCompile Include="src\HardwareFile\HardwareFilePrivate\HardwareFilePrivate.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\MainInstance\MainInstance.cpp" />
+    <ClCompile Include="src\MainInstance\MainInstancePrivate\MainInstancePrivate.cpp" />
+    <ClCompile Include="src\Version\Version.cpp" />
+    <ClCompile Include="src\Version\VersionPrivate\VersionPrivate.cpp" />
+    <ClCompile Include="Tests\Config_Test.cpp" />
+    <ClCompile Include="Tests\MainInstance_Test.cpp" />
+    <ClCompile Include="Tests\Version_Test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\AppConfig\AppConfig.h" />
+    <ClInclude Include="src\AppConfig\AppConfigPrivate\AppConfigPrivate.h" />
+    <ClInclude Include="src\BaseFactory\BaseFactory.h" />
+    <ClInclude Include="src\ComponentConfigType\ComponentConfigType.h" />
+    <ClInclude Include="src\ComponentConfig\ComponentConfig.h" />
+    <ClInclude Include="src\ComponentConfig\ComponentConfigPrivate\ComponentConfigPrivate.h" />
+    <ClInclude Include="src\ComponentInfo\ComponentInfo.h" />
+    <ClInclude Include="src\ComponentInfo\ComponentInfoPrivate\ComponentInfoPrivate.h" />
+    <ClInclude Include="src\ComponentList\ComponentList.h" />
+    <ClInclude Include="src\ComponentList\ComponentListPrivate\ComponentListPrivate.h" />
+    <ClInclude Include="src\ComponentLoader\ComponentLoader.h" />
+    <ClInclude Include="src\ComponentLoader\ComponentLoaderPrivate\ComponentLoaderPrivate.h" />
+    <ClInclude Include="src\ComponentLogic\ComponentLogic.h" />
+    <ClInclude Include="src\Component\Component.h" />
+    <ClInclude Include="src\Component\ComponentPrivate\ComponentPrivate.h" />
+    <ClInclude Include="src\ConfigBoolWidget\ConfigBoolWidget.h" />
+    <ClInclude Include="src\ConfigDoubleWidget\ConfigDoubleWidget.h" />
+    <ClInclude Include="src\ConfigExportInterface\ConfigExporterInterface.h" />
+    <ClInclude Include="src\ConfigImportInterface\ConfigImporterInterface.h" />
+    <ClInclude Include="src\ConfigIniFileExporter\ConfigIniFileExporter.h" />
+    <ClInclude Include="src\ConfigIniFileExporter\ConfigIniFileExporterPrivate\ConfigIniFileExporterPrivate.h" />
+    <ClInclude Include="src\ConfigIniFileImporter\ConfigIniFileImporter.h" />
+    <ClInclude Include="src\ConfigIniFileImporter\ConfigIniFileImporterPrivate\ConfigIniFileImporterPrivate.h" />
+    <ClInclude Include="src\ConfigIniFileIO\ConfigIniFileIO.h" />
+    <ClInclude Include="src\ConfigIniFileIO\ConfigIniFileIOPrivate\ConfigIniFileIOPrivate.h" />
+    <ClInclude Include="src\ConfigIntWidget\ConfigIntWidget.h" />
+    <ClInclude Include="src\ConfigIOInterface\ConfigIOInterface.h" />
+    <ClInclude Include="src\ConfigItem\ConfigItem.h" />
+    <ClInclude Include="src\ConfigItem\ConfigItemPrivate\ConfigItemPrivate.h" />
+    <ClInclude Include="src\ConfigParameter\ConfigParameterPrivate\ConfigParameterPrivate.h" />
+    <ClInclude Include="src\Errors\ErrorSubComponentLinkingFailed.h" />
+    <ClInclude Include="Tests\ComponentTest\TestComponentAlpha\TestComponentAlpha.h" />
+    <ClInclude Include="Tests\ComponentTest\TestComponentBeta\TestComponentBeta.h" />
+    <ClInclude Include="Tests\ComponentTest\TestFactoryAlpha\TestFactoryAlpha.h" />
+    <ClInclude Include="Tests\ComponentTest\TestFactoryBeta\TestFactoryBeta.h" />
+    <QtMoc Include="src\ConfigParameter\ConfigParameter.h" />
+    <ClInclude Include="src\ConfigStringWidget\ConfigStringWidget.h" />
+    <ClInclude Include="src\ConfigWidgetFactory\ConfigWidgetFactory.h" />
+    <QtMoc Include="src\ConfigWidget\ConfigWidget.h" />
+    <ClInclude Include="src\Errors\ErrorAlreadyContains.h" />
+    <ClInclude Include="src\Errors\ErrorCompareFailed.h" />
+    <ClInclude Include="src\Errors\ErrorFactoryMissing.h" />
+    <ClInclude Include="src\Errors\ErrorFileNotExists.h" />
+    <ClInclude Include="src\Errors\ErrorInvalidConfigValueType.h" />
+    <ClInclude Include="src\Errors\ErrorNotImplemented.h" />
+    <ClInclude Include="src\Errors\ErrorNullptr.h" />
+    <ClInclude Include="src\Errors\ErrorSubComponentMissing.h" />
+    <ClInclude Include="src\Errors\ErrorWrongComponent.h" />
+    <ClInclude Include="src\Exception\Exception.h" />
+    <ClInclude Include="src\FactoryList\FactoryList.h" />
+    <ClInclude Include="src\FactoryList\FactoryListPrivate\FactoryListPrivate.h" />
+    <ClInclude Include="src\HardwareConfig\HardwareConfig.h" />
+    <ClInclude Include="src\HardwareConfig\HardwareConfigPrivate\HardwareConfigPrivate.h" />
+    <ClInclude Include="src\HardwareFile\HardwareFile.h" />
+    <ClInclude Include="src\HardwareFile\HardwareFilePrivate\HardwareFilePrivate.h" />
+    <ClInclude Include="src\MainInstance\MainInstance.h" />
+    <ClInclude Include="src\MainInstance\MainInstancePrivate\MainInstancePrivate.h" />
+    <ClInclude Include="src\Version\Version.h" />
+    <ClInclude Include="src\Version\VersionPrivate\VersionPrivate.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1A5E1704-D3E1-4020-86FE-2FC5F4E9CD24}</ProjectGuid>
+    <Keyword>QtVS_v304</Keyword>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'">10.0.18362.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'">10.0.19041.0</WindowsTargetPlatformVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'" Label="QtSettings">
+    <QtInstall>5.15.3_msvc2019</QtInstall>
+    <QtModules>core;widgets</QtModules>
+    <QtBuildConfig>debug</QtBuildConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'" Label="QtSettings">
+    <QtInstall>5.12.11_msvc2017 32</QtInstall>
+    <QtModules>core</QtModules>
+    <QtBuildConfig>release</QtBuildConfig>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'">
+    <OutDir>$(ProjectDir)dist\$(Configuration)</OutDir>
+    <IntDir>$(ProjectDir)build\$(Configuration)</IntDir>
+    <IncludePath>$(ProjectDir)..\3rdParty\googletest-master\googletest\include;$(ProjectDir)..\3rdParty\googletest-master\googletest;$(ProjectDir)src\;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'">
+    <OutDir>$(ProjectDir)dist\$(Configuration)</OutDir>
+    <IntDir>$(ProjectDir)build\$(Configuration)</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

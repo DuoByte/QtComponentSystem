@@ -1,0 +1,22 @@
+#include "CLASS_NAME.h"
+
+namespace NCore
+{
+	CCLASS_NAME::CCLASS_NAME()
+		: m_pPrivate(new CCLASS_NAMEPrivate)
+	{
+
+	}
+		
+	CCLASS_NAME::CCLASS_NAME(const CCLASS_NAME& i_oOther)
+		: m_pPrivate(i_oOther.m_pPrivate)
+	{
+
+	}
+
+	CCLASS_NAME::CCLASS_NAME(CCLASS_NAMEPrivate* i_pPrivate)
+		: m_pPrivate(i_pPrivate)
+	{
+
+	}
+}

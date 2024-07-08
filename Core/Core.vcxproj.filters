@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source\Version">
+      <UniqueIdentifier>{6a93fed0-a5cc-4acd-81db-9b818dfae398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Exception">
+      <UniqueIdentifier>{3a96d9cf-7b3a-4a15-a15d-211c0142e804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Version\VersionPrivate">
+      <UniqueIdentifier>{923f7793-0ab0-4063-9d82-cf865688bf7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{4058736b-56ca-4126-8039-d3caade4bed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GoogleTest">
+      <UniqueIdentifier>{24717372-88c6-4fdd-8338-da2425c372ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Component">
+      <UniqueIdentifier>{bc95afdd-0519-4cb3-b1f9-8f12bc1aa202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Component\ComponentPrivate">
+      <UniqueIdentifier>{6e59e027-aaa0-4697-bcfc-0b6e2040c6f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config">
+      <UniqueIdentifier>{9efa484d-7c46-4950-bb96-2fbf57b629eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\ConfigParameter">
+      <UniqueIdentifier>{7eed9a0a-0162-4bdc-980c-7743865b9617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\ConfigParameter\ConfigParameterPrivate">
+      <UniqueIdentifier>{611a3c81-983e-4f00-b917-9a099d16df48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\ConfigItem">
+      <UniqueIdentifier>{b7ea7539-17d1-4977-930f-504c068f1a4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\ConfigItem\ConfigItemPrivate">
+      <UniqueIdentifier>{9a75df12-924f-453c-8315-e2340e1c7377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\IO">
+      <UniqueIdentifier>{4ea743a8-a15e-4710-9bb9-3f7b5632b487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\IO\Interface">
+      <UniqueIdentifier>{fcb67f72-8e3e-4969-a5eb-6ff7bc5e36fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\IO\Interface\ConfigExporterInterface">
+      <UniqueIdentifier>{22f61e1a-2c0b-4883-bf82-643e4098bde1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\IO\Interface\ConfigIOInterface">
+      <UniqueIdentifier>{c2fa07ab-2aff-4f1b-85cd-41b9bbff4393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\IO\Ini">
+      <UniqueIdentifier>{af9c5adc-bf0c-4f45-8dcc-506451095b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\IO\Ini\ConfigIniFileIO">
+      <UniqueIdentifier>{77f80574-61ed-4ebf-8883-4d8bad6e6276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\IO\Ini\ConfigIniFileIO\ConfigIniFileIOPrivate">
+      <UniqueIdentifier>{13509f8b-db2c-42e9-a7f4-b15d602b9bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\IO\Ini\ConfigIniFileExporter">
+      <UniqueIdentifier>{803480b6-d048-4c81-832e-1d277bc8a6d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\IO\Ini\ConfigIniFileExporter\ConfigIniFileExporterPrivate">
+      <UniqueIdentifier>{2150f612-5676-41c3-b779-737d20b2a5bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\IO\Ini\ConfigIniFileImporter">
+      <UniqueIdentifier>{9c800012-66d5-4239-8682-3f714ccd08c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\IO\Ini\ConfigIniFileImporter\ConfigIniFileImporterPrivate">
+      <UniqueIdentifier>{960ee1dc-1a42-47f3-822a-285f9edbe9b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\IO\Interface\ConfigImporterInterface">
+      <UniqueIdentifier>{bdf94942-babf-4cd8-81d3-e573649fed83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\Widgets">
+      <UniqueIdentifier>{675ef048-a433-48a9-ab39-57a32c8ef3e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\Widgets\ConfigWidgetFactory">
+      <UniqueIdentifier>{5f1a8907-d06c-4383-9b6b-c5a9266c1505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\Widgets\ConfigWidget">
+      <UniqueIdentifier>{0e0b66d4-829b-46e1-90b5-b9d6910aaf9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\Widgets\ConfigIntWidget">
+      <UniqueIdentifier>{97dbe6a0-116e-4918-902e-38a088cec790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\Widgets\ConfigStringWidget">
+      <UniqueIdentifier>{90ff8c07-9305-408b-94a3-631f3b4aa0c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\Widgets\ConfigDoubleWidget">
+      <UniqueIdentifier>{ba98ed8d-b983-4eac-913d-f7357aad89d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config\Widgets\ConfigBoolWidget">
+      <UniqueIdentifier>{254cecbd-387a-413e-8413-7df6f2f6c9b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Errors">
+      <UniqueIdentifier>{c10a0f10-c242-4c95-b4d6-37edb1324688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Component\ComponentConfigType">
+      <UniqueIdentifier>{25842578-6857-4d64-ad11-19d3c7e45fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Component\ComponentInfo">
+      <UniqueIdentifier>{8b92a0b5-7bc0-44ea-ba08-e30e98f8718f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Component\ComponentInfo\ComponentInfoPrivate">
+      <UniqueIdentifier>{c7c08430-f080-4ba0-9725-874596004b6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Component\ComponentConfig">
+      <UniqueIdentifier>{e760b302-4252-4eac-8004-90d36625147a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Component\ComponentConfig\ComponentConfigPrivate">
+      <UniqueIdentifier>{3aae52d0-b76d-4012-8e31-4934f72ff8b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Component\HardwareConfig">
+      <UniqueIdentifier>{bec4c553-232c-4403-b1d2-3fe59cd9440a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Component\HardwareConfig\HardwareConfigPrivate">
+      <UniqueIdentifier>{7840246d-6c3d-4495-955e-2f83ef519a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Component\AppConfig">
+      <UniqueIdentifier>{0fe43a76-bfdc-4722-b6b1-7f22adf573d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Component\AppConfig\AppConfigPrivate">
+      <UniqueIdentifier>{e985d18b-6af1-4c55-ab44-5fecd657c048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\BaseFactory">
+      <UniqueIdentifier>{ffa94215-4c4f-4502-9479-723d9dd97ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ComponentLogic">
+      <UniqueIdentifier>{bd433b8a-fc68-4e2a-a66b-ecbf6f8c679d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ComponentLoader">
+      <UniqueIdentifier>{29515a97-f9cd-4d7b-ace1-6d61fba8166a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ComponentLoader\ComponentLoaderPrivate">
+      <UniqueIdentifier>{a7cb780c-31e2-40bc-8419-0e018f28e8be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ComponentList">
+      <UniqueIdentifier>{e4dfe4f4-3a79-42b7-a5a9-01a2708e8e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MainInstance">
+      <UniqueIdentifier>{a818941c-9123-4a76-82b4-2ce68ff080bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MainInstance\MainInstancePrivate">
+      <UniqueIdentifier>{f1bdecb8-50eb-4c16-acf4-dff91502a560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FactoryList">
+      <UniqueIdentifier>{9669bbc2-a554-476c-bef9-9c302a43b1e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FactoryList\FactoryListPrivate">
+      <UniqueIdentifier>{d23d61bd-c027-456a-963d-710fc17a2e86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\HardwareFile">
+      <UniqueIdentifier>{b8ea791a-9731-4fbd-bfac-232785e3a6b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\HardwareFile\HardwareFilePrivate">
+      <UniqueIdentifier>{c4ad14cf-089d-4a72-bde6-5ee8481e9eb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ComponentList\ComponentListPrivate">
+      <UniqueIdentifier>{65a19034-d86a-442a-b1f9-141260293153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\ComponentTest">
+      <UniqueIdentifier>{abcf3c5d-9a09-41a1-8c15-50c7fc28fe0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\ComponentTest\TestComponentAlpha">
+      <UniqueIdentifier>{d80199fc-7195-47ef-a2e0-0aadb4f500b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\ComponentTest\TestComponentBeta">
+      <UniqueIdentifier>{d7dd323b-344d-4a00-8aeb-4064db19b456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\ComponentTest\TestFactoryAlpha">
+      <UniqueIdentifier>{c74fd8e5-13e3-4652-bf54-a5e9360f00bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\ComponentTest\TestFactoryBeta">
+      <UniqueIdentifier>{d9c095be-ce38-4f7b-9f9b-2371e7c0c7be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Version\Version.cpp">
+      <Filter>Source\Version</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Exception\Exception.cpp">
+      <Filter>Source\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Version\VersionPrivate\VersionPrivate.cpp">
+      <Filter>Source\Version\VersionPrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Version_Test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\googletest-master\googletest\src\gtest-all.cc">
+      <Filter>GoogleTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\googletest-master\googletest\src\gtest_main.cc">
+      <Filter>GoogleTest</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\Component.cpp">
+      <Filter>Source\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component\ComponentPrivate\ComponentPrivate.cpp">
+      <Filter>Source\Component\ComponentPrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConfigItem\ConfigItem.cpp">
+      <Filter>Source\Config\ConfigItem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConfigItem\ConfigItemPrivate\ConfigItemPrivate.cpp">
+      <Filter>Source\Config\ConfigItem\ConfigItemPrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConfigParameter\ConfigParameterPrivate\ConfigParameterPrivate.cpp">
+      <Filter>Source\Config\ConfigParameter\ConfigParameterPrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConfigParameter\ConfigParameter.cpp">
+      <Filter>Source\Config\ConfigParameter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConfigIniFileIO\ConfigIniFileIO.cpp">
+      <Filter>Source\Config\IO\Ini\ConfigIniFileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConfigIniFileIO\ConfigIniFileIOPrivate\ConfigIniFileIOPrivate.cpp">
+      <Filter>Source\Config\IO\Ini\ConfigIniFileIO\ConfigIniFileIOPrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConfigIniFileExporter\ConfigIniFileExporterPrivate\ConfigIniFileExporterPrivate.cpp">
+      <Filter>Source\Config\IO\Ini\ConfigIniFileExporter\ConfigIniFileExporterPrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConfigIniFileExporter\ConfigIniFileExporter.cpp">
+      <Filter>Source\Config\IO\Ini\ConfigIniFileExporter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConfigIniFileImporter\ConfigIniFileImporter.cpp">
+      <Filter>Source\Config\IO\Ini\ConfigIniFileImporter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConfigIniFileImporter\ConfigIniFileImporterPrivate\ConfigIniFileImporterPrivate.cpp">
+      <Filter>Source\Config\IO\Ini\ConfigIniFileImporter\ConfigIniFileImporterPrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConfigWidgetFactory\ConfigWidgetFactory.cpp">
+      <Filter>Source\Config\Widgets\ConfigWidgetFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConfigWidget\ConfigWidget.cpp">
+      <Filter>Source\Config\Widgets\ConfigWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConfigIntWidget\ConfigIntWidget.cpp">
+      <Filter>Source\Config\Widgets\ConfigIntWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConfigStringWidget\ConfigStringWidget.cpp">
+      <Filter>Source\Config\Widgets\ConfigStringWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConfigDoubleWidget\ConfigDoubleWidget.cpp">
+      <Filter>Source\Config\Widgets\ConfigDoubleWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConfigBoolWidget\ConfigBoolWidget.cpp">
+      <Filter>Source\Config\Widgets\ConfigBoolWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\Config_Test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ComponentInfo\ComponentInfoPrivate\ComponentInfoPrivate.cpp">
+      <Filter>Source\Component\ComponentInfo\ComponentInfoPrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ComponentInfo\ComponentInfo.cpp">
+      <Filter>Source\Component\ComponentInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ComponentConfig\ComponentConfigPrivate\ComponentConfigPrivate.cpp">
+      <Filter>Source\Component\ComponentConfig\ComponentConfigPrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ComponentConfig\ComponentConfig.cpp">
+      <Filter>Source\Component\ComponentConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HardwareConfig\HardwareConfigPrivate\HardwareConfigPrivate.cpp">
+      <Filter>Source\Component\HardwareConfig\HardwareConfigPrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HardwareConfig\HardwareConfig.cpp">
+      <Filter>Source\Component\HardwareConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AppConfig\AppConfigPrivate\AppConfigPrivate.cpp">
+      <Filter>Source\Component\AppConfig\AppConfigPrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AppConfig\AppConfig.cpp">
+      <Filter>Source\Component\AppConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseFactory\BaseFactory.cpp">
+      <Filter>Source\BaseFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ComponentLogic\ComponentLogic.cpp">
+      <Filter>Source\ComponentLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ComponentLoader\ComponentLoader.cpp">
+      <Filter>Source\ComponentLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ComponentLoader\ComponentLoaderPrivate\ComponentLoaderPrivate.cpp">
+      <Filter>Source\ComponentLoader\ComponentLoaderPrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainInstance\MainInstancePrivate\MainInstancePrivate.cpp">
+      <Filter>Source\MainInstance\MainInstancePrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainInstance\MainInstance.cpp">
+      <Filter>Source\MainInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FactoryList\FactoryListPrivate\FactoryListPrivate.cpp">
+      <Filter>Source\FactoryList\FactoryListPrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FactoryList\FactoryList.cpp">
+      <Filter>Source\FactoryList</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HardwareFile\HardwareFilePrivate\HardwareFilePrivate.cpp">
+      <Filter>Source\HardwareFile\HardwareFilePrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HardwareFile\HardwareFile.cpp">
+      <Filter>Source\HardwareFile</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ComponentList\ComponentListPrivate\ComponentListPrivate.cpp">
+      <Filter>Source\ComponentList\ComponentListPrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ComponentList\ComponentList.cpp">
+      <Filter>Source\ComponentList</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\MainInstance_Test.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Version\Version.h">
+      <Filter>Source\Version</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Exception\Exception.h">
+      <Filter>Source\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Version\VersionPrivate\VersionPrivate.h">
+      <Filter>Source\Version\VersionPrivate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Component\Component.h">
+      <Filter>Source\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Component\ComponentPrivate\ComponentPrivate.h">
+      <Filter>Source\Component\ComponentPrivate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConfigItem\ConfigItem.h">
+      <Filter>Source\Config\ConfigItem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConfigItem\ConfigItemPrivate\ConfigItemPrivate.h">
+      <Filter>Source\Config\ConfigItem\ConfigItemPrivate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConfigParameter\ConfigParameterPrivate\ConfigParameterPrivate.h">
+      <Filter>Source\Config\ConfigParameter\ConfigParameterPrivate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConfigIOInterface\ConfigIOInterface.h">
+      <Filter>Source\Config\IO\Interface\ConfigIOInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConfigExportInterface\ConfigExporterInterface.h">
+      <Filter>Source\Config\IO\Interface\ConfigExporterInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConfigImportInterface\ConfigImporterInterface.h">
+      <Filter>Source\Config\IO\Interface\ConfigImporterInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConfigIniFileIO\ConfigIniFileIO.h">
+      <Filter>Source\Config\IO\Ini\ConfigIniFileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConfigIniFileIO\ConfigIniFileIOPrivate\ConfigIniFileIOPrivate.h">
+      <Filter>Source\Config\IO\Ini\ConfigIniFileIO\ConfigIniFileIOPrivate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConfigIniFileExporter\ConfigIniFileExporterPrivate\ConfigIniFileExporterPrivate.h">
+      <Filter>Source\Config\IO\Ini\ConfigIniFileExporter\ConfigIniFileExporterPrivate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConfigIniFileExporter\ConfigIniFileExporter.h">
+      <Filter>Source\Config\IO\Ini\ConfigIniFileExporter</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConfigIniFileImporter\ConfigIniFileImporter.h">
+      <Filter>Source\Config\IO\Ini\ConfigIniFileImporter</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConfigIniFileImporter\ConfigIniFileImporterPrivate\ConfigIniFileImporterPrivate.h">
+      <Filter>Source\Config\IO\Ini\ConfigIniFileImporter\ConfigIniFileImporterPrivate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConfigWidgetFactory\ConfigWidgetFactory.h">
+      <Filter>Source\Config\Widgets\ConfigWidgetFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConfigIntWidget\ConfigIntWidget.h">
+      <Filter>Source\Config\Widgets\ConfigIntWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConfigStringWidget\ConfigStringWidget.h">
+      <Filter>Source\Config\Widgets\ConfigStringWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConfigDoubleWidget\ConfigDoubleWidget.h">
+      <Filter>Source\Config\Widgets\ConfigDoubleWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConfigBoolWidget\ConfigBoolWidget.h">
+      <Filter>Source\Config\Widgets\ConfigBoolWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Errors\ErrorNotImplemented.h">
+      <Filter>Source\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ComponentConfigType\ComponentConfigType.h">
+      <Filter>Source\Component\ComponentConfigType</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ComponentInfo\ComponentInfoPrivate\ComponentInfoPrivate.h">
+      <Filter>Source\Component\ComponentInfo\ComponentInfoPrivate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ComponentInfo\ComponentInfo.h">
+      <Filter>Source\Component\ComponentInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ComponentConfig\ComponentConfigPrivate\ComponentConfigPrivate.h">
+      <Filter>Source\Component\ComponentConfig\ComponentConfigPrivate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ComponentConfig\ComponentConfig.h">
+      <Filter>Source\Component\ComponentConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HardwareConfig\HardwareConfigPrivate\HardwareConfigPrivate.h">
+      <Filter>Source\Component\HardwareConfig\HardwareConfigPrivate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HardwareConfig\HardwareConfig.h">
+      <Filter>Source\Component\HardwareConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AppConfig\AppConfigPrivate\AppConfigPrivate.h">
+      <Filter>Source\Component\AppConfig\AppConfigPrivate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AppConfig\AppConfig.h">
+      <Filter>Source\Component\AppConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BaseFactory\BaseFactory.h">
+      <Filter>Source\BaseFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ComponentLogic\ComponentLogic.h">
+      <Filter>Source\ComponentLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Errors\ErrorInvalidConfigValueType.h">
+      <Filter>Source\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Errors\ErrorAlreadyContains.h">
+      <Filter>Source\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ComponentLoader\ComponentLoader.h">
+      <Filter>Source\ComponentLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ComponentLoader\ComponentLoaderPrivate\ComponentLoaderPrivate.h">
+      <Filter>Source\ComponentLoader\ComponentLoaderPrivate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MainInstance\MainInstancePrivate\MainInstancePrivate.h">
+      <Filter>Source\MainInstance\MainInstancePrivate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MainInstance\MainInstance.h">
+      <Filter>Source\MainInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FactoryList\FactoryListPrivate\FactoryListPrivate.h">
+      <Filter>Source\FactoryList\FactoryListPrivate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FactoryList\FactoryList.h">
+      <Filter>Source\FactoryList</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HardwareFile\HardwareFilePrivate\HardwareFilePrivate.h">
+      <Filter>Source\HardwareFile\HardwareFilePrivate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HardwareFile\HardwareFile.h">
+      <Filter>Source\HardwareFile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Errors\ErrorFileNotExists.h">
+      <Filter>Source\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Errors\ErrorNullptr.h">
+      <Filter>Source\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Errors\ErrorFactoryMissing.h">
+      <Filter>Source\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ComponentList\ComponentListPrivate\ComponentListPrivate.h">
+      <Filter>Source\ComponentList\ComponentListPrivate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ComponentList\ComponentList.h">
+      <Filter>Source\ComponentList</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Errors\ErrorSubComponentMissing.h">
+      <Filter>Source\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Errors\ErrorWrongComponent.h">
+      <Filter>Source\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Errors\ErrorCompareFailed.h">
+      <Filter>Source\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\ComponentTest\TestComponentAlpha\TestComponentAlpha.h">
+      <Filter>Tests\ComponentTest\TestComponentAlpha</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\ComponentTest\TestComponentBeta\TestComponentBeta.h">
+      <Filter>Tests\ComponentTest\TestComponentBeta</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\ComponentTest\TestFactoryAlpha\TestFactoryAlpha.h">
+      <Filter>Tests\ComponentTest\TestFactoryBeta</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\ComponentTest\TestFactoryBeta\TestFactoryBeta.h">
+      <Filter>Tests\ComponentTest\TestFactoryAlpha</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Errors\ErrorSubComponentLinkingFailed.h">
+      <Filter>Source\Errors</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\ConfigParameter\ConfigParameter.h">
+      <Filter>Source\Config\ConfigParameter</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ConfigWidget\ConfigWidget.h">
+      <Filter>Source\Config\Widgets\ConfigWidget</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>

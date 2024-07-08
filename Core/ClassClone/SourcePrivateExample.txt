@@ -1,0 +1,15 @@
+#include "CLASS_NAMEPrivate.h"
+
+namespace NCore
+{
+	CCLASS_NAMEPrivate::CCLASS_NAMEPrivate()
+	{
+
+	}
+
+	CCLASS_NAMEPrivate::CCLASS_NAMEPrivate(const CCLASS_NAMEPrivate& i_oOther)
+		: QSharedData(i_oOther)
+	{
+
+	}
+}
